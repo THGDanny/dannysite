@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fish</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Danyaal (Danny) Islam</h1>
+        <p>Studied Electronic Engineering at The University of Manchester</p>
+        <p>Projects</p>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+        </ul>
+
+        <div class="container">
+            <img id="fishimg" src="fish.png" alt="Fish"/>
+            <div class="overlay">
+                <div class="txt"><h1>HELLO!!</h1></div>
+            </div>
+        </div>
+
+        <form>
+            <label>This button does nothing at all, but feel free to click it!</label>
+            <input type="button">
+        </form>
+
+        <script>
+            var fishimg = document.getElementById("fishimg");
+            var del = 2500;
+
+            function flipImg() {
+                del = del+1000;
+                var imgurl = fishimg.src.split("/")
+                if(imgurl[imgurl.length - 1] == "fish.png") {
+                    fishimg.src = "salmon.jpeg"
+                } else {
+                    fishimg.src = "fish.png"
+                }
+            }
+
+            setInterval(flipImg, 2500)
+            
+        </script>
+        <noscript>WHY DO YOU HAVE JAVASCRIPT DISABLED?!?!?!?!?!?!?!?!?!?!?!?!</noscript>
+
+
+    </body>
+</html>
