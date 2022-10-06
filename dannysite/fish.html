@@ -3,12 +3,12 @@
     <head>
         <title>Fish</title>
         <link rel="stylesheet" href="fishstyle.css">
-        <link rel="icon" type="image/x-icon" href="cutefish.ico">
+        <link rel="icon" type="image/x-icon" href="images/cutefish.ico">
     </head>
     <body>
         <div class="container">
             <div class="txt"><h1>Fishhhhhhh!!</h1></div>
-            <img id="fishimg" src="fish.png" alt="Big juicy fish"/>
+            <img id="fishimg" src="images/fish.png" alt="Big juicy fish"/>
             <div class="overlay">Hello fish</div>
         </div>
 
@@ -20,16 +20,16 @@
                 del = del+1000;
                 var imgurl = fishimg.src.split("/")
                 if(imgurl[imgurl.length - 1] == "fish.png") {
-                    fishimg.src = "salmon.jpeg"
+                    fishimg.src = "images/salmon.jpeg"
                 } else {
-                    fishimg.src = "fish.png"
+                    fishimg.src = "images/fish.png"
                 }
             }
 
             setInterval(swapFish, 2500)
             
         </script>
-        <noscript>WHY DO YOU HAVE JAVASCRIPT DISABLED?!? NOW YOU CAN'T SEE THE FISH SWITCH!!!</noscript>
+        <noscript>WHY DO YOU HAVE JAVASCRIPT DISABLED?!? NOW YOU CAN'T SEE THE FISHIES!!!</noscript>
 
     </body>
 </html>
