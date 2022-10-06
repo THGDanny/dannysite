@@ -1,24 +1,12 @@
 body {
-    background-color: rebeccapurple;
-}
-
-.container {
-
-}
-
-.container:hover .overlay {
-    opacity: 1
-}
-
-.overlay {
-    opacity: 0;
-    transition: .5s ease;
+    background-color: rgb(78, 109, 128);
+    font-family: Georgia, serif;
 }
 
 h1 { 
-    color: powderblue;
+    color: rgb(49, 167, 94);
 }
 
 p {
-    color: turquoise;
+    color: rgb(49, 167, 94);
 }

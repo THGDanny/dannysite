@@ -1,49 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Fish</title>
+        <title>Me</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Danyaal (Danny) Islam</h1>
-        <p>Studied Electronic Engineering at The University of Manchester</p>
-        <p>Projects</p>
+        <p>I am colour blind (definitely not an excuse for my terrible colour choice)</p>
+        <p>Studied a Masters in Electronic Engineering at The University of Manchester</p>
+        <p>Programming projects:</p>
         <ul>
-            <li>1</li>
-            <li>2</li>
+            <li><a href="https://dev.bukkit.org/projects/kitadder">KitAdder</a> - a Minecraft server plugin programmed in Java with 500K+ downloads</li>
+            <li><a href="https://github.com/THGDanny/towerdefence">Tower Defence</a> - a tower defence based game programmed in Java (work in progress) <a href=""></a></li>
         </ul>
-
-        <div class="container">
-            <img id="fishimg" src="fish.png" alt="Fish"/>
-            <div class="overlay">
-                <div class="txt"><h1>HELLO!!</h1></div>
-            </div>
-        </div>
-
-        <form>
-            <label>This button does nothing at all, but feel free to click it!</label>
-            <input type="button">
-        </form>
-
-        <script>
-            var fishimg = document.getElementById("fishimg");
-            var del = 2500;
-
-            function flipImg() {
-                del = del+1000;
-                var imgurl = fishimg.src.split("/")
-                if(imgurl[imgurl.length - 1] == "fish.png") {
-                    fishimg.src = "salmon.jpeg"
-                } else {
-                    fishimg.src = "fish.png"
-                }
-            }
-
-            setInterval(flipImg, 2500)
-            
-        </script>
-        <noscript>WHY DO YOU HAVE JAVASCRIPT DISABLED?!?!?!?!?!?!?!?!?!?!?!?!</noscript>
-
+        
+        <p>Programming languages used:</p>
+        <ul>
+            <li>Java</li>
+            <li>C/C++/C#</li>
+            <li>Python</li>
+            <li>PHP</li>
+            <li>JavaScript</li>
+            <li>Assembly</li>
+        </ul>
+        
+        <h2><a href="fish.html">Fish dedication page</a></h2>
+        <p>Website is still in progress....</p>
 
     </body>
 </html>
