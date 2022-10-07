@@ -26,3 +26,7 @@ a:hover {
     opacity: 0.75;
     display:block;
 }
+
+img {
+    border: 5px solid #555;
+}
