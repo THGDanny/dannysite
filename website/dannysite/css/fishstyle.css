@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(34, 92, 126);
+    font-family: Georgia, serif;
+}
+
+.container:hover .overlay {
+    opacity: 1
+}
+
+.overlay {
+    opacity: 0;
+    transition: .5s ease;
+}
+
+h1 { 
+    color: rgb(49, 167, 94);
+}
+
+p {
+    color: rgb(49, 167, 94);
+}
